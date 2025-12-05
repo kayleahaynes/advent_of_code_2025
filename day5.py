@@ -1,4 +1,4 @@
-## Advent of code 2025 - Day 3 ## 
+## Advent of code 2025 - Day 5 ## 
 
 data_file = open("day5.txt", "r")
 df = data_file.read()
@@ -44,3 +44,4 @@ count_ingredients = 0
 
 for i in consolidated_fresh_ingredients: 
     count_ingredients += i[1] - i[0] + 1
+
